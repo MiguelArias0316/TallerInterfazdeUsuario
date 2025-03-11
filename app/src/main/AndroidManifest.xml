@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.miprimerapp2">
+
+    <application
+        android:allowBackup="true"
+        android:label="MiPrimerApp2"
+        android:theme="@style/Theme.MiPrimerApp2">
+
+        <activity android:name=".Splash" android:exported="true"
+            android:theme="@style/Theme.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" android:exported="true" />
+        <activity android:name=".Register" android:exported="true" />
+    </application>
+</manifest>
